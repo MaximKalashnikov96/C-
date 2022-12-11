@@ -10,18 +10,18 @@ int count = -number;
 Console.Clear();
 Console.WriteLine("все целые числа в промежутке");
 if (number >= 0)
-while (count <= number)
-{
-{    
-    Console.Write(count+ " ");
-    count++;
-}
-}
+    while (count <= number)
+
+    {
+        Console.Write(count + " ");
+        count++;
+    }
+
 else
 {
-    while(count >= number)
+    while (count >= number)
     {
-        Console.Write(count+" ");
+        Console.Write(count + " ");
         count--;
     }
 }

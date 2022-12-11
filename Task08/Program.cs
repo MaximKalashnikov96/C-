@@ -4,3 +4,28 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+Console.Clear();
+Console.WriteLine("все чётные числа от 1 до вашего числа ");
+if (number >= 2)
+   { count = count + 1;
+    while (count <= number)
+    {
+        Console.WriteLine(count + " ");
+        count = count + 2;
+    }
+    }
+    
+else
+{   
+    {count = count - 1;
+    while (number <= count )
+    
+    {
+        Console.WriteLine(count + " ");
+        count = count - 2;
+    }
+    }
+}
