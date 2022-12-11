@@ -8,4 +8,7 @@
 
 Console.WriteLine("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(number + 2);
+if (number % 2 == 0)
+    Console.WriteLine("да");
+else
+    Console.WriteLine("нет");
