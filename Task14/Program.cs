@@ -12,3 +12,13 @@ if (number % 7 == 0 && number % 23 == 0)
 Console.WriteLine("да");
 else 
 Console.WriteLine("нет");
+
+// Console.WriteLine("Введите целое число:");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine(Multiplicity(number) ? "Да" : "Нет");
+
+// bool Multiplicity(int num1)
+// {
+// return (num1 % 7 == 0) && (num1 % 23 == 0);
+// }
