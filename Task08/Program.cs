@@ -20,12 +20,12 @@ if (number >= 2)
     
 else
 {   
-    {count = count - 1;
+    count = count - 1;
     while (number <= count )
     
     {
         Console.WriteLine(count + " ");
         count = count - 2;
     }
-    }
+    
 }
