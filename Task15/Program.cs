@@ -18,6 +18,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 // else Console.WriteLine("Такого дня нет");
 
 if (number == 6 || number == 7)
-Console.WriteLine("да");
-else 
-Console.WriteLine("нет");
+    Console.WriteLine("да");
+else if (number > 0 && number < 6)
+    Console.WriteLine("нет");
+else Console.WriteLine("Такого дня недели нет.");
