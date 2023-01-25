@@ -16,8 +16,7 @@ void SquareTable(int num)
         count++;
     }
 }
-
-//  SquareTable(number);
+ SquareTable(number);
 
 //  Console.WriteLine("Введите число ");
 // int number = Convert.ToInt32(Console.ReadLine());
